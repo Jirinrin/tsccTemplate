@@ -1,0 +1,5 @@
+node_modules/
+.tscc_temp
+tsccTemplate.min.js
+tsccTemplate.min.js.map
+dist/

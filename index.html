@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSCC Template</title>
+  <link rel="stylesheet" href="./css/main.css" type="text/css" />
+  
+  <!-- Demonstration of externals at work -->
+  <script>
+    var testGlobalVars = {
+      num: 42,
+      bla: [{
+        eventType: 'x',
+        value: 100,
+      }],
+    };
+  </script>
+
+  <!-- Use this one with `yarn dev` for easy iterating -->
+	<!-- <script src="./dist/main.js" type="module"></script> -->
+  <!-- Use this one once you want to use the closure-compiled JS -->
+  <script src="./tsccTemplate.min.js" defer></script>
+</head>
+<body>
+  <p>This is a template for getting TSCC to work.</p>
+</body>
+</html>

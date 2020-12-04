@@ -1,0 +1,16 @@
+{
+  "modules": {
+    "out": "./src/main.ts"
+  },
+  "prefix": "dist/",
+  "compilerFlags": {
+    "compilation_level": "ADVANCED_OPTIMIZATIONS",
+    "env": "BROWSER",
+    "language_in": "ECMASCRIPT_2017",
+    "language_out": "ECMASCRIPT5",
+    "warning_level": "DEFAULT",
+    "module_resolution": "BROWSER",
+    "process_common_js_modules": true,
+    "js_output_file": "tsccTemplate.min.js"
+  }
+}
